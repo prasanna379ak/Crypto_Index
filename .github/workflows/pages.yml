@@ -24,8 +24,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Wait 2 minutes after index update
-        run: sleep 120
+      - name: Wait 1 minutes after index update
+        run: sleep 60
 
       - name: Checkout repository
         uses: actions/checkout@v4
