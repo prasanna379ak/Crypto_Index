@@ -1,0 +1,8 @@
+{
+  "run_id": "2026-01-27T16-48Z",
+  "providers": {
+    "coingecko": "success",
+    "coinmarketcap": "success",
+    "coinpaprika": "success"
+  }
+}
