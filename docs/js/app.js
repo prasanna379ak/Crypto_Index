@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     let from;
 
     switch (range) {
-      case "30m": from = now - 1800; break;
+      case "20m": from = now - 1200; break;
       case "4h": from = now - 14400; break;
       case "1d": from = now - 86400; break;
       case "1m": from = now - 2592000; break;
