@@ -1,0 +1,23 @@
+providers:
+  - name: coingecko
+    enabled: true
+    api_url: https://api.coingecko.com/api/v3/coins/markets
+    vs_currency: usd
+    top_n: 50
+
+  - name: coinmarketcap
+    enabled: true
+    api_url: https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest
+    vs_currency: USD
+    top_n: 50
+
+  - name: coinpaprika
+    enabled: true
+    api_url: https://api.coinpaprika.com/v1/tickers
+    top_n: 50
+
+  - name: cryptocompare
+    enabled: false 
+    api_url: https://min-api.cryptocompare.com/data/top/mktcapfull
+    vs_currency: USD
+    top_n: 50

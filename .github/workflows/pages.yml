@@ -1,0 +1,46 @@
+name: Pages Build & Deploy
+
+on:
+  workflow_run:
+    workflows: ["Index Runner"]
+    types:
+      - completed
+  workflow_dispatch:
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    # Only run if Index Runner succeeded
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Wait 1 minutes after index update
+        run: sleep 60
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+
+      - name: Show dashboard URL
+        run: |
+          echo "Dashboard: https://prasanna379ak.github.io/Crypto_Index/"

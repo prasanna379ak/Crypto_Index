@@ -1,0 +1,23 @@
+stablecoins:
+- usdt
+- usdc
+- usde
+- pyusd
+- usd1
+- usdg
+- dai
+- paxg
+- USDS
+- usds
+staked:
+- steth
+- wsteth
+- cbeth
+wrapped:
+- wbtc
+- WEETH
+- weeth
+- TETH
+- WBETH
+- wbeth
+non_utility: []
