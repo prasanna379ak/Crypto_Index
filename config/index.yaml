@@ -1,0 +1,5 @@
+index:
+  name: INDEX-C10
+  size: 10              
+  base_value: 1000
+  weighting: market_cap

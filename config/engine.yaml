@@ -1,0 +1,15 @@
+ares:
+  # Minimum number of providers required for an asset to be considered
+  # (effective quorum = min(quorum, active providers))
+  quorum: 2
+
+  # Market-cap tolerance across providers (percent)
+  tolerance_percent: 15
+
+index:
+  # Number of assets in the index
+  size: 10
+
+rebalance:
+  frequency_days: 14
+  timezone: UTC

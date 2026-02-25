@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Axiom Finance | Crypto Intelligence</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            charcoal: '#0B0D10',
+            slatecard: '#151A21',
+            mistblue: '#BFD3E7',
+            steelblue: '#4A6FA5'
+          }
+        }
+      }
+    }
+  </script>
+  <script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 4px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: rgba(128, 128, 128, 0.2);
+      border-radius: 10px;
+    }
+    .mono {
+      font-family: 'JetBrains Mono', monospace;
+    }
+    /* Smooth transitions for theme switching */
+    * {
+      transition: border-color 0.2s ease, background-color 0.2s ease;
+    }
+  </style>
+
+<link rel="stylesheet" href="/index.css">
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.575.0"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/Crypto_Index/assets/index-CtBP2IzV.js"></script>
+</head>
+<body class="bg-slate-50 dark:bg-charcoal text-slate-900 dark:text-[#E2E8F0]">
+  <div id="root"></div>
+</body>
+</html>
