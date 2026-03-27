@@ -1,56 +1,56 @@
 {
-  "as_of": "2026-03-27T09:48:04.121160+00:00",
+  "as_of": "2026-03-27T10:41:03.517291+00:00",
   "method": "free-float market cap",
   "constituents": [
     {
       "symbol": "BTC",
       "weight": 0.3,
-      "market_cap": 1354514388663.0
+      "market_cap": 1347385372414.0
     },
     {
       "symbol": "ETH",
       "weight": 0.22,
-      "market_cap": 246644257628.0
+      "market_cap": 244301150175.0
     },
     {
       "symbol": "XRP",
       "weight": 0.06,
-      "market_cap": 82464673754.0
+      "market_cap": 82381949097.0
     },
     {
       "symbol": "BNB",
       "weight": 0.06,
-      "market_cap": 84503830909.0
+      "market_cap": 83443894912.0
     },
     {
       "symbol": "SOL",
       "weight": 0.06,
-      "market_cap": 48634516229.0
+      "market_cap": 48617750409.0
     },
     {
       "symbol": "TRX",
       "weight": 0.06,
-      "market_cap": 29684809568.0
+      "market_cap": 29791120007.0
     },
     {
       "symbol": "DOGE",
       "weight": 0.06,
-      "market_cap": 13984391616.0
+      "market_cap": 13941831912.0
     },
     {
       "symbol": "BCH",
       "weight": 0.06,
-      "market_cap": 9310130931.0
+      "market_cap": 9312634860.0
     },
     {
       "symbol": "ADA",
       "weight": 0.06,
-      "market_cap": 9251894518.0
+      "market_cap": 9210296587.0
     },
     {
       "symbol": "LEO",
       "weight": 0.06,
-      "market_cap": 8789100435.0
+      "market_cap": 8793018830.0
     }
   ]
 }
